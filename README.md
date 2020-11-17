@@ -25,7 +25,7 @@ Front-End - [Django REST framework](https://www.django-rest-framework.org/)
 5. Inside the `AWorldWithoutH8/frontend` folder, also execute `npm install` to download all your frontend dependencies mentioned in `package.json`
 
 
-### 5. Rebasing with master
+### 3. Rebasing with master
 
 1. Whenever there are new changes in master, you maybe required to integrate those changes on your branch before working on top of it
 2. Update your cache with `git fetch origin`

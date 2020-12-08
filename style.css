@@ -4,15 +4,14 @@ body {
 }
 
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 body {
     /* background-color: #ea4630; */
-    background-color: #ad242c;
+    background-color: #e62760; /* Background color*/
     display: flex;
     align-items: center;
-    scroll-behavior: smooth;
     justify-content: center;
     flex-direction: column;
     padding: 0;
@@ -24,7 +23,7 @@ h1 {
     font-family: 'IMPACT';
     font-size: 3.5em;
     text-align: center;
-    color: #ecdeb9;
+    color: #e3acce; /* " A World Without H8 txt" */
     padding: 1em 1.5em;
     border-radius: 25px;
 }
@@ -32,21 +31,21 @@ h1 {
 .styled {
     border: 0;
     line-height: 2.5;
-    padding: 0 30px;
+    left: 515px;
+    padding: 0 100px;
     font-size: 1rem;
     text-align: center;
+    align-items: center;
     height: 200px;
-  position: relative;
-    color: #fff;
+    position: relative;
+    color: #fff; /* Button Color */ 
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color: rgba(3, 148, 252);
+    background-color: #e3acce; 
     background-image: linear-gradient(to top left,
                                       rgba(0, 0, 0, .2),
                                       rgba(0, 0, 0, .2) 30%,
                                       rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
 .styled:hover {
@@ -62,7 +61,7 @@ h1 {
 #about>p {
     grid-column: 2/3;
     align-content: start;
-    background-color: #00000099;
+    background-color: #e62760;
     color: #ecdeb9;
     padding: 2em;
     margin: 0;
@@ -100,6 +99,7 @@ main {
     display: block;
     height: 100vh;
     overflow-y: scroll;
+    margin-left: auto;
     scroll-behavior: smooth;
     width: 100%;
 }
@@ -118,7 +118,6 @@ section {
 #about {
     display: grid;
     height: auto;
-    overflow: visible;
     align-items: start;
     grid-template-columns: auto;
 }
@@ -131,14 +130,13 @@ section {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
-    background-color: #181818;
-    background-size: contain;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     height: auto;
     align-items: center;
-    justify-items: center;
-    color: darkgrey;
+    color: #ecdeb9;
 }
 
 footer>p>a {
